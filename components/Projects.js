@@ -20,7 +20,7 @@ function ProjectCard({ project }) {
   return (
     <div className="w-full block p-4 lg:p-2 transition duration-500 ease-in-out hover:shadow-2xl">
         <Image
-          src="/images/nocturne.jpg"
+          src="/img/nocturne.jpg"
           alt="nocturne"
           height="500"
           width="500"

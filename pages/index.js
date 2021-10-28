@@ -1,8 +1,10 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Image from 'next/image';
+import getPortfolioProjects from '../lib/getPortfolioProjects';
+import Projects from '../components/Projects';
+import styles from '../styles/Home.module.css';
 
-export default function Home() {
+export default function Home({ repositories }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -15,6 +17,7 @@ export default function Home() {
        <h1>Thanos Dimitriades</h1>
        <h2>Web Developer</h2>
        <p>Coming soon...</p>
+       <Projects repositories={repositories} />
       </main>
 
       <footer className={styles.footer}>
@@ -34,12 +37,10 @@ export default function Home() {
 }
 
 export const getStaticProps = async () => {
-  
-  const repositories = await getportfolioProjects(process.env.GITHUB_AUTH_TOKEN);
-  console.log("REPOSITORIES", repositories);
+  const repositories = await getPortfolioProjects(process.env.GITHUB_AUTH_TOKEN);
   return {
     props: {
-      repositories
+      repositories: null
     }
-  }
+  };
 }

@@ -1,20 +1,23 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Image from 'next/image';
+import Hero from '../components/Hero';
+import Projects from '../components/Projects';
+import getPortfolioProjects from '../lib/getPortfolioProjects';
+import styles from '../styles/Home.module.css';
 
-export default function Home() {
+export default function Home({ repositories }) {
   return (
     <div className={styles.container}>
       <Head>
         <title>Thanos Dimitriades - portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Web developer portfolio for Thanos Dimitriades" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-       <h1>Thanos Dimitriades</h1>
-       <h2>Web Developer</h2>
-       <p>Coming soon...</p>
+       <Hero />
+       <Projects repositories={repositories} />
       </main>
 
       <footer className={styles.footer}>
@@ -34,12 +37,11 @@ export default function Home() {
 }
 
 export const getStaticProps = async () => {
+  const repositories = await getPortfolioProjects(process.env.GITHUB_AUTH_TOKEN);
   
-  const repositories = await getportfolioProjects(process.env.GITHUB_AUTH_TOKEN);
-  console.log("REPOSITORIES", repositories);
   return {
     props: {
       repositories
     }
-  }
+  };
 }

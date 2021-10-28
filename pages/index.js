@@ -38,9 +38,10 @@ export default function Home({ repositories }) {
 
 export const getStaticProps = async () => {
   const repositories = await getPortfolioProjects(process.env.GITHUB_AUTH_TOKEN);
+  
   return {
     props: {
-      repositories: null
+      repositories
     }
   };
 }

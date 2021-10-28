@@ -17,32 +17,6 @@
   color: white;
 }
 
-.hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
-}
-
-.hero-text button:hover {
-  background-color: #555;
-  color: white;
-}
-</style>
-</head>
-<body>
-
-<div class="hero-image">
-  <div class="hero-text">
-    <h1 style="font-size:50px">I am John Doe</h1>
-    <p>And I'm a Photographer</p>
-    <button>Hire me</button>
-  </div>
-</div>
 
 <p>Page Content..</p>
 */
@@ -50,7 +24,10 @@
 export default function Hero() {
   return (
     <div className="h-screen w-screen bg-hero-pattern bg-cover bg-center">
-      
+      <div className="h-screen w-screen flex flex-col justify-center items-center gap-4 bg-black bg-opacity-50 text-white">
+        <h1 className="text-5xl md:text-8xl text-center">Thanos Dimitriades</h1>
+        <h2 className="text-4xl md:text-6xl text-center">Web Developer</h2>
+      </div>
     </div>
   );
 }

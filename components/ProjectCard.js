@@ -15,7 +15,7 @@ export default function ProjectCard({ project }) {
   const name = imgName.replace(/-/g, ' ');
 
   return (
-    <div className="container flex justify-between flex-col rounded-md w-full p-4 sm:p-2 transition duration-500 border-2 border-gray-200 hover:border-blue-200 ease-in-out shadow-lg">
+    <div className="shadow-lg flex justify-between flex-col rounded-md w-full p-4 sm:p-2 transition duration-500 border-2 border-gray-200 hover:border-blue-200 ease-in-out">
       <div>
       <Image
         src={`/img/projects/${imgName}.jpg`}
@@ -23,7 +23,6 @@ export default function ProjectCard({ project }) {
         layout="responsive"
         height="100%"
         width="100%"
-        onClick={() => console.log('clicked on image')}
       />
       </div>
       <h3 className="text-center text-4xl md:text-2xl capitalize">{name}</h3>

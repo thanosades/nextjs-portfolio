@@ -1,6 +1,14 @@
 import Image from 'next/image';
 import Github from './Github';
 
+const liveProjects = {
+  foodapp: "https://immense-beach-84136.herokuapp.com/",
+  notesbackend: "https://level-one-notes.herokuapp.com/",
+  quizapp: "https://condescending-colden-58e3e9.netlify.app/",
+  reacthooksform: "https://fervent-kowalevski-ed1d06.netlify.app",
+  starlightsapp: "https://naughty-panini-63decd.netlify.app/"
+}
+
 export default function Projects({ repositories }) {
   if (!repositories) {
     return <h3>Loading projects...</h3>
@@ -41,7 +49,7 @@ function ProjectCard({ project }) {
         <a target="_blank" href={url} rel="noopener noreferrer">
         <Github />
         </a>
-        <a target="_blank" href={url} rel="noopener noreferrer">link to live</a>
+        <a target="_blank" href={`${liveProjects[imgName.replace(/-/g, '')]}`} rel="noopener noreferrer">link to live</a>
       </p>
     </div>
   );

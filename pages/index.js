@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 import Head from 'next/head';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
@@ -7,6 +8,14 @@ import getPortfolioProjects from '../lib/getPortfolioProjects';
 import styles from '../styles/Home.module.css';
 
 export default function Home({ projects }) {
+  const ref = useRef();
+  const scrollToMission = () => {
+    window.scrollTo({
+      behavior: "smooth",
+      top: ref.current.offsetTop
+    });
+  }
+
   return (
     <div className={styles.container}>
       <Head>
@@ -17,7 +26,8 @@ export default function Home({ projects }) {
       </Head>
 
       <main className={styles.main}>
-        <Hero />
+        <Hero scrollToMission={scrollToMission} />
+        <div ref={ref}></div>
         <Mission />
         <Projects projects={projects} />
       </main>

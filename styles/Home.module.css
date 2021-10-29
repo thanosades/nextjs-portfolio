@@ -20,6 +20,8 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  color: white;
+  background-color: black;
 }
 
 .footer a {

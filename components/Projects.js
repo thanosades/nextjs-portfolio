@@ -20,16 +20,15 @@ export default function Projects({ repositories }) {
 }
 
 function ProjectCard({ project }) {
-  let { name, description, url } = project;
-
-  name = name.replace('-', ' ');
+  const { name: imgName , description, url } = project;
+  const name = imgName.replace(/-/g, ' ');
 
   return (
     <div className="container flex justify-between flex-col rounded-md w-full block p-4 sm:p-2 transition duration-500 border-2 border-gray-200 hover:border-gray-400 ease-in-out shadow-lg">
       <div>
       <Image
-        src="/img/nocturne.jpg"
-        alt="nocturne"
+        src={`/img/projects/${imgName}.jpg`}
+        alt={`picture for the ${name} project`}
         layout="responsive"
         height="100%"
         width="100%"

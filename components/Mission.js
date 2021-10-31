@@ -2,7 +2,7 @@ import Skills from './Skills';
 
 export default function Mission() {
   return (
-    <article id="mission" className="w-screen m-20">
+    <article id="mission" className="w-screen mt-10">
       <section className="w-screen flex flex-col justify-start items-center">
         <h3 className="text-5xl">My Mission</h3>
         <p className="w-1/2 m-9">
@@ -15,15 +15,15 @@ export default function Mission() {
         </p>       
       </section>
       <section className="w-screen flex flex-col justify-start items-center">
-      <Skills />
         <h3 className="text-5xl mt-10">My Skills</h3>
-        <p className="w-1/2 mt-8">
+        <p className="w-1/2 m-8">
           My current skills are geared towards front-end development, but my heart has
           been interested in the world of back-end development. I consider programming languages 
           and frameworks as tools, means to the end that is software construction. 
           For that reason, I won&apos;t hesitate to learn new things. But, like most things,
           learning is a balancing act between diving deeper in what you know and picking something new.
         </p>
+      <Skills />
       </section>
     </article>
   );

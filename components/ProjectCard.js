@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Github from './Github';
 import Globe from './Globe';
+import { skills } from './Skills';
 
 const liveProjects = {
   foodapp: 'https://immense-beach-84136.herokuapp.com/',
@@ -11,9 +12,13 @@ const liveProjects = {
 }
 
 export default function ProjectCard({ project }) {
-  const { name: imgName , description, url } = project;
+  const { name: imgName , description, url, topics } = project;
   const name = imgName.replace(/-/g, ' ');
 
+  const logos = topics.filter(topic => skills.includes(topic));
+
+  console.log('project', name);
+  console.log('logos', logos);
   return (
     <div className="shadow-sm hover:shadow-lg flex justify-between flex-col rounded-sm w-full transition duration-500 border-2 border-gray-200 hover:border-green-600 ease-in-out">
       <div>

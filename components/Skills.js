@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export const skills = [
+const skills = [
   'react',
   'typescript',
   'javascript',

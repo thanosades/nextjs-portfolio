@@ -4,7 +4,7 @@ export default function Mission() {
   return (
     <article id="mission" className="w-screen m-20">
       <section className="w-screen flex flex-col justify-start items-center">
-        <h2 className="text-5xl">My Mission</h2>
+        <h3 className="text-5xl">My Mission</h3>
         <p className="w-1/2 m-9">
           My mission is to deliver quality products and solve challenging problems.
           I believe that software development is more than a career, it&apos;s
@@ -16,7 +16,7 @@ export default function Mission() {
       </section>
       <section className="w-screen flex flex-col justify-start items-center">
       <Skills />
-        <h2 className="text-5xl mt-10">My Skills</h2>
+        <h3 className="text-5xl mt-10">My Skills</h3>
         <p className="w-1/2 mt-8">
           My current skills are geared towards front-end development, but my heart has
           been interested in the world of back-end development. I consider programming languages 

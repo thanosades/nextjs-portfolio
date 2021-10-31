@@ -15,7 +15,7 @@ export default function ProjectCard({ project }) {
   const name = imgName.replace(/-/g, ' ');
 
   return (
-    <div className="shadow-lg flex justify-between flex-col rounded-md w-full p-4 sm:p-2 transition duration-500 border-2 border-gray-200 hover:border-blue-200 ease-in-out">
+    <div className="shadow-sm hover:shadow-lg flex justify-between flex-col rounded-sm w-full transition duration-500 border-2 border-gray-200 hover:border-green-600 ease-in-out">
       <div>
       <Image
         src={`/img/projects/${imgName}.jpg`}
@@ -24,10 +24,13 @@ export default function ProjectCard({ project }) {
         height="100%"
         width="100%"
       />
+      <div className="flex h-10 bg-gray-800 w-full">
+
       </div>
-      <h3 className="text-center text-4xl md:text-2xl capitalize">{name}</h3>
-      <p className="text-sm mt-2 lg:text-base">{description}</p>
-      <p className="flex mt-6 justify-between text-base lg:text-lg sm:text-sm">
+      </div>
+      <h3 className="text-center p-4 sm:p-2 text-4xl md:text-2xl capitalize">{name}</h3>
+      <p className="text-sm mt-2 p-4 sm:p-2 lg:text-base">{description}</p>
+      <p className="flex mt-6 p-4 sm:p-2 justify-between text-base lg:text-lg sm:text-sm">
         <a target="_blank" href={url} rel="noopener noreferrer">
         <Github />
         </a>

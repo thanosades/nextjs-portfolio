@@ -15,7 +15,7 @@ export default function ProjectCard({ project }) {
   const name = imgName.replace(/-/g, ' ');
 
   return (
-    <div className="shadow-sm hover:shadow-lg flex justify-between flex-col rounded-sm w-full transition duration-500 border-2 border-opacity-50 hover:border-green-600 hover:border-opacity-60 ease-in-out">
+    <div className="shadow-sm hover:shadow-lg flex justify-between flex-col rounded-sm w-full transition duration-500 border-2 border-opacity-80 hover:border-green-600 hover:border-opacity-60 ease-in-out">
       <div>
       <Image
         src={`/img/projects/${imgName}.jpg`}

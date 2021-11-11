@@ -1,8 +1,8 @@
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-10 bg-green-700 text-white font-bold">
-      <nav className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 shadow-2xl">
+    <header className="sticky w-screen top-0 z-10 bg-green-700 text-white shadow-2xl font-bold">
+      <nav className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <ul className="text-xl relative flex items-center justify-between h-16 overflow-hidden">
           <li><a href="./">
             <div className="bg-black border-2 rounded-full p-2">TD</div>

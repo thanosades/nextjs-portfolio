@@ -23,3 +23,9 @@ a {
 main {
   margin-top: -64px;
 }
+
+section:before {
+  height: 64px;
+  content: "";
+  display:block;
+}

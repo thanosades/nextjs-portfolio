@@ -7,7 +7,8 @@ const liveProjects = {
   notesbackend: 'https://level-one-notes.herokuapp.com/',
   quizapp: 'https://condescending-colden-58e3e9.netlify.app/',
   reacthooksform: 'https://fervent-kowalevski-ed1d06.netlify.app',
-  starlightsapp: 'https://naughty-panini-63decd.netlify.app/'
+  starlightsapp: 'https://naughty-panini-63decd.netlify.app/',
+  nextjsportfolio: 'https://thanosades.vercel.app/'
 }
 
 export default function ProjectCard({ project }) {

@@ -2,11 +2,11 @@ import Skills from './Skills';
 
 export default function Mission() {
   return (
-    <article id="mission" className="w-screen mt-10">
+    <article className="w-screen mt-10">
       <section className="w-screen flex flex-col justify-start items-center">
-        <h3 className="text-5xl">My Mission</h3>
+        <h3 className="text-5xl">Mission</h3>
         <p className="w-1/2 m-9">
-          My mission is to deliver quality products and solve challenging problems.
+          To design good software, deliver quality products and solve challenging problems.
           I believe that software development is more than a career, it&apos;s
           a lifestyle. Learning new things has become an obsession, and I&apos;m
           focused on becoming the best developer I can possibly be. My goal is to

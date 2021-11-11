@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import Head from 'next/head';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import Mission from '../components/Mission';
@@ -9,6 +10,7 @@ import styles from '../styles/Home.module.css';
 
 export default function Home({ projects }) {
   const ref = useRef();
+
   const scrollToMission = () => {
     window.scrollTo({
       behavior: "smooth",
@@ -24,7 +26,7 @@ export default function Home({ projects }) {
         <meta name="description" content="Web developer portfolio for Thanos Dimitriades" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Header />
       <main className={styles.main}>
         <Hero scrollToMission={scrollToMission} />
         <div ref={ref}></div>

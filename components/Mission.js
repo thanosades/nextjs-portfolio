@@ -2,7 +2,7 @@ import Skills from './Skills';
 
 export default function Mission() {
   return (
-    <article className="w-screen mt-10">
+    <article id="mission" className="w-screen mt-10">
       <section className="w-screen flex flex-col justify-start items-center">
         <h3 className="text-5xl">Mission</h3>
         <p className="w-1/2 m-9">

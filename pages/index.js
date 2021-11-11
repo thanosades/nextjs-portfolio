@@ -14,7 +14,7 @@ export default function Home({ projects }) {
   const scrollToMission = () => {
     window.scrollTo({
       behavior: "smooth",
-      top: ref.current.offsetTop
+      top: ref.current.offsetTop - 60
     });
   }
 

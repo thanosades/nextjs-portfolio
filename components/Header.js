@@ -10,7 +10,7 @@ export default function Header() {
           <li>
             <ul className="flex items-center justify-start">
               <li>
-                <a href="#mission" className="p-2 sm:p-6 lg:p-8 hover:bg-green-600">Mission</a>
+                <a href="#about" className="p-2 sm:p-6 lg:p-8 hover:bg-green-600">About Me</a>
               </li>
               <li>
                 <a href="#projects" className="p-2 sm:p-6 lg:p-8 hover:bg-green-600">Projects</a>

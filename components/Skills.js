@@ -18,7 +18,7 @@ export default function Skills() {
   return (
     <div className='grid grid-cols-2 md:grid-cols-5 mt-10 gap-8'>
       {
-        skills.map(skill => <Image key={skill} width='100' height='100' src={`/img/svg/${skill}.svg`} alt={`${skill} logo`} />)
+        skills.map(skill => <Image key={skill} width='80' height='80' src={`/img/svg/${skill}.svg`} alt={`${skill} logo`} />)
       }
     </div>
   )

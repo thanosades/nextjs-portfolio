@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
-import Mission from '../components/Mission';
+import About from '../components/About';
 import Projects from '../components/Projects';
 import getPortfolioProjects from '../lib/getPortfolioProjects';
 import styles from '../styles/Home.module.css';
@@ -11,7 +11,7 @@ import styles from '../styles/Home.module.css';
 export default function Home({ projects }) {
   const ref = useRef();
 
-  const scrollToMission = () => {
+  const scrollToAbout = () => {
     window.scrollTo({
       behavior: "smooth",
       top: ref.current.offsetTop
@@ -28,9 +28,9 @@ export default function Home({ projects }) {
       </Head>
       <Header />
       <main className={styles.main}>
-        <Hero scrollToMission={scrollToMission} />
+        <Hero scrollToAbout={scrollToAbout} />
         <div ref={ref}></div>
-        <Mission />
+        <About />
         <Projects projects={projects} />
       </main>
       <Footer />

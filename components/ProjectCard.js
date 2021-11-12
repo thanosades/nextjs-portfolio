@@ -3,7 +3,6 @@ import Github from './Github';
 import Globe from './Globe';
 
 const liveProjects = {
-  foodapp: 'https://immense-beach-84136.herokuapp.com/',
   notesbackend: 'https://level-one-notes.herokuapp.com/',
   quizapp: 'https://condescending-colden-58e3e9.netlify.app/',
   reacthooksform: 'https://fervent-kowalevski-ed1d06.netlify.app',

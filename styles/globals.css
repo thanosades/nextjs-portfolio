@@ -28,6 +28,6 @@ main {
 
 .about:before, .projects:before {
   content: "";
-  height: 64px;
+  margin-top: 64px;
   display:block;
 }

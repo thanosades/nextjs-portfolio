@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
+import Skills from '../components/Skills';
 import About from '../components/About';
 import Projects from '../components/Projects';
 import getPortfolioProjects from '../lib/getPortfolioProjects';
@@ -31,6 +32,7 @@ export default function Home({ projects }) {
         <Hero scrollToAbout={scrollToAbout} />
         <div ref={ref}></div>
         <About />
+        <Skills />
         <Projects projects={projects} />
       </main>
       <Footer />

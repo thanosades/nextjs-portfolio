@@ -6,7 +6,7 @@ export default function About() {
         <div className="text-lg flex flex-col justify-evenly mt-4 w-1/2 gap-8">
           <p>When I lost my job last year due to Covid I decided to check out programming as a hobby
             after playing <a href="https://store.steampowered.com/app/716490/EXAPUNKS/">Exapunks</a>, a game I received from a friend as a gift.
-            My 4 hours of leisured engagement per day went up to 10, which made me arrive to biggest turning point of my life: Pursuing software development as a career.</p>
+            My 4 hours of leisured engagement per day went up to 10, which made me arrive to a great decision and my biggest turning point of my life: Pursuing software development as a career.</p>
           <p>My journey began with <a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x">Harvard&apos;s CS50</a>.
             Once I completed my elementary exposure to Computer Science, I went through the frontend section of <a href="https://www.theodinproject.com/">The Odin Project</a>, followed
             by <a href="https://fullstackopen.com/en/">Fullstackopen</a> which gave me a taste of fullstack development using React, Node.js and MongoDB.

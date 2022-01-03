@@ -11,7 +11,7 @@ export default function About() {
             Once I completed my elementary exposure to Computer Science, I went through the frontend section of <a href="https://www.theodinproject.com/">The Odin Project</a>, followed
             by <a href="https://fullstackopen.com/en/">Fullstackopen</a> which gave me a taste of fullstack development using React, Node.js and MongoDB.
             Beyond that, I mostly google and learn, something which I assume that everyone already does.</p>
-          <p>At the moment I&apos;m learning Java following a combination of <a href="https://java-programming.mooc.fi/">Helsinki&apos;s mooc</a> and 2 really fun
+          <p>At the moment I&apos;m learning Java using the combination of <a href="https://java-programming.mooc.fi/">Helsinki&apos;s MOOC</a> and 2 really fun
             books: <a href="https://www.amazon.com/Introduction-Programming-Structures-Comprehensive-Version/dp/0136520235">Introduction to Java</a> and <a href="https://www.amazon.com/Effective-Java-Joshua-Bloch/dp/0134685997">Effective Java</a>.</p>
           <p>While my journey began with frontend, I found myself enjoying working with backend and the programming logic that makes services tick.</p>
           <p>My greatest priority is to find a place where I can decidate my days to grow as a developer and contribute in a positive way.</p>

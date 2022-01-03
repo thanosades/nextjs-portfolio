@@ -3,7 +3,19 @@ export default function About() {
     <article id="about" className="about w-screen">
       <section className="w-screen text-center text-xl flex flex-col justify-start items-center">
         <h3 className="text-5xl">About Me</h3>
-        <p className="mt-4 w-1/2">I love problem solving and tackling challenges. My favorite languages are C# and TypeScript.</p>
+        <div className="text-lg flex flex-col justify-evenly mt-4 w-1/2 gap-8">
+          <p>I always loved computers. When I lost my job last year due to Covid I decided to check out programming as a hobby
+            after playing <a href="https://store.steampowered.com/app/716490/EXAPUNKS/">Exapunks</a>.
+            My 4 hours of leisured engagement per day slowly turned into 10, and now here I am in the biggest turning point of my life: Pursuing it as a career.</p>
+          <p>My journey began with <a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x">Harvard's CS50</a>.
+            Once I completed it, I followed through the frontend part of <a href="https://www.theodinproject.com/">The Odin Project</a>, and <a href="https://fullstackopen.com/en/">Fullstackopen</a> which taught me the basics of React Hooks, Node.js and MongoDB.
+            Beyond that, I mostly google and learn, something which I assume that everyone already does.</p>
+          <p>At the moment I'm learning Java following a combination of <a href="https://java-programming.mooc.fi/">Helsinki's mooc</a> and 2 really fun to read books:
+            <a href="https://www.amazon.com/Introduction-Programming-Structures-Comprehensive-Version/dp/0136520235">Introduction to Java</a>
+            and <a href="https://www.amazon.com/Effective-Java-Joshua-Bloch/dp/0134685997">Effective Java</a>.</p>
+          <p>While my journey began with frontend, I found myself enjoying working with backend and the programming logic that makes services tick.</p>
+          <p>My greatest priority is to find a place where I can decidate my days to grow as a developer and contribute in a positive way.</p>
+        </div>
       </section>
     </article>
   );

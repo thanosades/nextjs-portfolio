@@ -31,3 +31,7 @@ main {
   margin-top: 64px;
   display:block;
 }
+
+.about a {
+  text-decoration: underline;
+}

@@ -4,14 +4,18 @@ export default function About() {
       <section className="w-screen text-center text-xl flex flex-col justify-start items-center">
         <h3 className="text-5xl">About Me</h3>
         <div className="text-lg flex flex-col justify-evenly mt-4 w-1/2 gap-8">
-          <p>When I lost my job last year due to Covid I decided to check out programming as a hobby
-            after playing <a href="https://store.steampowered.com/app/716490/EXAPUNKS/">Exapunks</a>, a game I received from a friend as a gift.
-            My 4 hours of leisured engagement per day went up to 10, which made me arrive to a great decision and my biggest turning point of my life: Pursuing software development as a career.</p>
-          <p>I started my learning journey with <a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x">Harvard&apos;s CS50</a> and the
-            frontend section of <a href="https://www.theodinproject.com/">The Odin Project</a>, followed by <a href="https://fullstackopen.com/en/">Fullstackopen</a>.
-            Beyond that, I mostly google and learn, something which I assume that everyone already does.</p>
-          <p>My top priority is to find a place where I can decidate myself, to grow as a developer and contribute in a positive way.
-            While my journey began with frontend, I found myself enjoying working with backend and the programming logic that makes services tick.</p>
+          <p>
+            When I lost my job last year due to Covid lockdown a friend gifted me a game called <a href="https://store.steampowered.com/app/504210/SHENZHEN_IO/">SHENZHEN I/O</a>, an open-ended programming puzzle
+            created by Zachtronics. Little did she know that this will spark an interest in programming, the interest will turn into passion, and will lead me down towards the self-taught path of software development.
+          </p>
+          <p>
+            Today I&#39;m a junior web developer. So far I&#39;ve learned C and CS101, built simple web pages using HTML, CSS and JavaScript on <a href="https://www.theodinproject.com/">The Odin Project</a>.
+            Attended <a href="https://fullstackopen.com/en/">Full Stack Open</a> where I learned React Hooks, Node.js, Redux, MongoDB and TypeScript.
+          </p>
+          <p>
+            Tomorrow? Who knows. The only thing I know is that I&#39;ll wake up, grab a cup of coffee and get studying and coding.
+            It feels like I&#39;m strapped on a rocket boosting towards something I should have done a long time ago:<br /> Find my passion and go after it.
+          </p>
         </div>
       </section>
     </article>

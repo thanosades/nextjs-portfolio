@@ -7,14 +7,11 @@ export default function About() {
           <p>When I lost my job last year due to Covid I decided to check out programming as a hobby
             after playing <a href="https://store.steampowered.com/app/716490/EXAPUNKS/">Exapunks</a>, a game I received from a friend as a gift.
             My 4 hours of leisured engagement per day went up to 10, which made me arrive to a great decision and my biggest turning point of my life: Pursuing software development as a career.</p>
-          <p>My journey began with <a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x">Harvard&apos;s CS50</a>.
-            Once I completed my elementary exposure to Computer Science, I went through the frontend section of <a href="https://www.theodinproject.com/">The Odin Project</a>, followed
-            by <a href="https://fullstackopen.com/en/">Fullstackopen</a> which gave me a taste of fullstack development using React, Node.js and MongoDB.
+          <p>I started my learning journey with <a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x">Harvard&apos;s CS50</a> and the
+            frontend section of <a href="https://www.theodinproject.com/">The Odin Project</a>, followed by <a href="https://fullstackopen.com/en/">Fullstackopen</a>.
             Beyond that, I mostly google and learn, something which I assume that everyone already does.</p>
-          <p>At the moment I&apos;m learning Java using the combination of <a href="https://java-programming.mooc.fi/">Helsinki&apos;s MOOC</a> and 2 really fun
-            books: <a href="https://www.amazon.com/Introduction-Programming-Structures-Comprehensive-Version/dp/0136520235">Introduction to Java</a> and <a href="https://www.amazon.com/Effective-Java-Joshua-Bloch/dp/0134685997">Effective Java</a>.</p>
-          <p>While my journey began with frontend, I found myself enjoying working with backend and the programming logic that makes services tick.</p>
-          <p>My greatest priority is to find a place where I can decidate my days to grow as a developer and contribute in a positive way.</p>
+          <p>My top priority is to find a place where I can decidate myself, to grow as a developer and contribute in a positive way.
+            While my journey began with frontend, I found myself enjoying working with backend and the programming logic that makes services tick.</p>
         </div>
       </section>
     </article>

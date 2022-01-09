@@ -5,7 +5,7 @@ const skills = [
   'typescript',
   'javascript',
   'css',
-  'redux',
+  'java',
   'nodejs',
   'postgres',
   'mongodb',

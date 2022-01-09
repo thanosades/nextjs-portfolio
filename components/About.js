@@ -5,11 +5,11 @@ export default function About() {
         <h3 className="text-5xl">About Me<br /> <span className="text-xl"> (aka. "the elevator pitch")</span></h3>
         <div className="text-lg flex flex-col justify-evenly mt-4 w-1/2 gap-8">
           <p>I used to work in IT, wait tables, be a theme park cashier, and more. Found love in Zachtronics games. When I lost my job
-            during COVID lockdown I decided to learn how to program, starting from CS basics, and work my way up. I've had enough fun to
+            during COVID lockdown I decided to learn how to program, starting from CS basics, and work my way up. I&#39;ve had enough fun to
             take the brave decision and make it my career.
           </p>
           <p>
-            I started as a frontend, but I'm also expanding into backend territory. My favorite languages (so far) are TypeScript and Java.
+            I started as a frontend, but I&#39;m also expanding into backend territory. My favorite languages (so far) are TypeScript and Java.
           </p>
         </div>
       </section>

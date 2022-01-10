@@ -8,9 +8,11 @@ export default function About() {
             during COVID lockdown I decided to learn how to program, starting from CS basics, and work my way up. I&#39;ve had enough fun to
             take the brave decision and make it my career.
           </p>
-          <p>
-            I started as a frontend, but I&#39;m also expanding into backend territory. My favorite languages (so far) are TypeScript, Java and C#.
-          </p>
+          <div>
+            <p>
+              I started as a frontend, but I&#39;m also expanding into backend territory.</p> <p>My favorite languages (so far) are TypeScript, Java and C#.
+            </p>
+          </div>
         </div>
       </section>
     </article>

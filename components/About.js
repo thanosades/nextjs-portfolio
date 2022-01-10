@@ -9,7 +9,7 @@ export default function About() {
             take the brave decision and make it my career.
           </p>
           <p>
-            I started as a frontend, but I&#39;m also expanding into backend territory. My favorite languages (so far) are TypeScript and Java.
+            I started as a frontend, but I&#39;m also expanding into backend territory. My favorite languages (so far) are TypeScript, Java and C#.
           </p>
         </div>
       </section>

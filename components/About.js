@@ -8,7 +8,7 @@ export default function About() {
           I&#39;m a frontend developer who also dabbles with backend.          
           My journey began when a friend gifted me a programming puzzle game. 
           Now I code full-time.</p>
-          <p>My favorite stack is React with TypeScript and SCSS for the frontend, and Python for the backend.</p>
+          <p>My favorite stack is React with TypeScript and SCSS for the frontend, and TypeScript with Node.js or Python with Django in the backend.</p>
           <p>I enjoy problem-solving and developing performant software applications.</p>
         </div>
       </section>

@@ -9,7 +9,7 @@ export default function About() {
           My journey began when a friend gifted me a programming puzzle game. 
           Now I code full-time.</p>
           <p>My favorite stack is React with TypeScript and SCSS for the frontend, and Python for the backend.</p>
-          <p>I enjoy both solving problems, optimizing for performance (as long as it&#39;s not done prematurely) and building software.</p>
+          <p>I enjoy problem-solving and developing performant software applications.</p>
         </div>
       </section>
     </article>

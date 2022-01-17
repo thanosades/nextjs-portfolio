@@ -7,9 +7,8 @@ export default function About() {
         <p>
           I&#39;m a frontend developer who also dabbles with backend.          
           My journey began when a friend gifted me a programming puzzle game. 
-          Now I code full-time.</p>
-          <p>My favorite stack is React with TypeScript and SCSS for the frontend, and TypeScript with Node.js or Python with Django in the backend.</p>
-          <p>I enjoy problem-solving and developing performant software applications.</p>
+          Now I code full-time. Turns out not only do I enjoy problem-solving but also developing performant software.</p>
+
         </div>
       </section>
     </article>

@@ -1,11 +1,11 @@
 import Image from 'next/image';
 
 const skills = [
-  'react',
+  'python',
   'typescript',
   'javascript',
-  'css',
-  'java',
+  'react',
+  'sass',
   'nodejs',
   'postgres',
   'mongodb',
